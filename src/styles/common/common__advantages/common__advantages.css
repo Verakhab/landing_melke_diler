@@ -1,0 +1,42 @@
+.common__advantages {
+    margin: 0 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__advantages {
+        margin: 0 35px;
+    }
+}
+
+.common__advantages-wrapp {
+    background-color: #48484D;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    max-width: 1540px;
+    margin: 0 auto 192px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__advantages-wrapp {
+        margin: 0 auto 100px;
+    }
+}
+
+.common__advantages-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__advantages-title {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,22 @@
+.wrap-lamination {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.wrap-lamination__block {
+    max-width: 75px;
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrap-lamination__block:first-child {
+    margin-left: 0;
+}
+
+.wrap-lamination__title {
+    font-weight: 400;
+    font-size: 12px;
+    color: #C4C4CD;
+}

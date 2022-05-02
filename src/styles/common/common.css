@@ -1,0 +1,10 @@
+@import './common__tehnology/common__tehnology.css';
+@import './common__support/common__support.css';
+@import './common__advantages/common__advantages.css';
+@import './common__manufactured/common__manufactured.css';
+
+.common {
+    margin: 0 auto;
+    background: url('../../images/about/back-two.png') 0 7px/100% no-repeat, url('../../images/about/back-img.png') -500px 1450px/100% no-repeat, url('../../images/about/back-two.png') 0 2755px/100% no-repeat, url('../../images/about/back-three.png') 0 4435px/100% no-repeat, url('../../images/about/back-img.png') -1064px 6302px/100% no-repeat, url('../../images/about/back-two.png') 0 8457px/100% no-repeat, url('../../images/about/back-img.png') -1064px 11143px/100% no-repeat, url('../../images/about/back-img.png') 0 13140px/100% no-repeat;
+}
+

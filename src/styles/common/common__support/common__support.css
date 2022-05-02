@@ -1,0 +1,138 @@
+.common__support {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1540px;
+    min-height: 900px;
+    padding: 0 50px;
+    margin: 0 auto 94px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support {
+        flex-direction: column;
+        padding: 0 35px;
+        margin: 0 auto 100px;
+    }
+}
+
+.common__support_seals {
+    min-height: 600px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support_seals {
+        margin: 0 auto 100px;
+    }
+}
+
+.common__support_glossy {
+    min-height: 635px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support_glossy {
+        margin: 0 auto 100px;
+    }
+}
+
+.common__support_profil {
+    min-height: 760px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support_profil {
+        margin: 0 auto 100px;
+    }
+}
+
+.common__support-img {
+    align-self: flex-start;
+    background-image: url('../../../images/common/common-support/support-image.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 710px;
+    height: 470px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support-img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.common__support-img_future {
+    background-image: url('../../../images/common/common-future/future.jpg');
+}
+
+.common__support-img_inspiring {
+    background-image: url('../../../images/common/common-inspiring/inspiring.jpg');
+}
+
+.common__support-img_seals {
+    background-image: url('../../../images/common/common-seals/seals.png');
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support-img_seals {
+        background-image: url('../../../images/common/common-seals/seals-img.png');
+        height: 400px;
+    }
+}
+
+.common__support-img_glossy-surface {
+    background-image: url('../../../images/common/common-glossy-surface/glossy-surface.jpg');
+}
+
+.common__support-img_profil-in {
+    background-image: url('../../../images/common/common-profil-in/profil-in.jpg');
+}
+
+.common__support-img_silence {
+    background-image: url('../../../images/common/common-silence/silence.jpg');
+}
+
+.common__support-wrap-desc {
+    max-width: 710px;
+    align-self: flex-end;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support-wrap-desc {
+        margin-bottom: 0;
+    }
+}
+
+.common__support-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 1024px) {
+    .common__support-title {
+        font-size: 24px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+}
+
+.common__support-desc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.7;
+    color: #C4C4CD;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .common__support-desc {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+}

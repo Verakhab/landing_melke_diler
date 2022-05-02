@@ -1,0 +1,22 @@
+@import "../vendor/normalize.css";
+@import "../../node_modules/swiper/swiper.min.css";
+@import "../../node_modules/swiper/modules/effect-coverflow/effect-coverflow.min.css";
+@import "../../node_modules/swiper/modules/navigation/navigation.min.css";
+@import "../vendor/fonts/fonts.css";
+@import "./header/header.css";
+@import "./about/about.css";
+@import "./video/video.css";
+@import "./common/common.css";
+@import "./wrap-lamination/wrap-lamination.css";
+@import "./slider-container/slider-container.css";
+
+body {
+    background-color: #373739;
+    font-family: PF Isotext Pro, Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.body__img-one {
+    position: absolute;
+    margin-top: 75px;
+}
