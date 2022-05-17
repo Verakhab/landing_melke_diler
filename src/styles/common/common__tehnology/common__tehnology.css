@@ -109,6 +109,13 @@
 @media screen and (max-width: 1024px) {
     .common__tehnology-img_co-ex {
         background-image: url('../../../images/common/common-co-ex/co-ex-img.jpg');
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .common__tehnology-img_co-ex {
+        background-image: url('../../../images/common/common-co-ex/co-ex-img.jpg');
         height: 400px;
     }
 }

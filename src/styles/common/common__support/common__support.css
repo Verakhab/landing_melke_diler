@@ -12,6 +12,8 @@
         flex-direction: column;
         padding: 0 35px;
         margin: 0 auto 100px;
+        justify-content: flex-start;
+        min-height: 750px;
     }
 }
 
@@ -77,6 +79,12 @@
 @media screen and (max-width: 1024px) {
     .common__support-img_seals {
         background-image: url('../../../images/common/common-seals/seals-img.png');
+        height: 1224px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .common__support-img_seals {
+        background-image: url('../../../images/common/common-seals/seals-img.png');
         height: 400px;
     }
 }
@@ -97,11 +105,14 @@
     max-width: 710px;
     align-self: flex-end;
     margin-bottom: 60px;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 1024px) {
     .common__support-wrap-desc {
         margin-bottom: 0;
+        margin-left: 0;
+        align-self: flex-start;
     }
 }
 

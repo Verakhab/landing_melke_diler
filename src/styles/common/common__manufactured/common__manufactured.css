@@ -73,6 +73,7 @@
 @media screen and (max-width: 1024px) {
     .common__manufactured-btn {
         padding: unset;
+        display: flex;
     }
 }
 
